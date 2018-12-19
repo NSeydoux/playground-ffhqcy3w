@@ -1,4 +1,4 @@
-title: Python Project
+title: An introduction to RDF querying in SPARQL
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
