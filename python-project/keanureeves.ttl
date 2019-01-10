@@ -1,0 +1,3 @@
+:KeanuReeves rdf:type yaco:Actor;
+  rdfs:label "Keanu Reeves";
+  yaco:birthYear 1964.

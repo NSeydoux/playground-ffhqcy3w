@@ -1,0 +1,7 @@
+PREFIX yaco: <https://www.irit.fr/.../ontologies/cinema#> .
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+SELECT ?actor ?year
+WHERE {
+  ?actor rdf:type yaco:Actor;
+    yaco:birthYear ?year.
+}
