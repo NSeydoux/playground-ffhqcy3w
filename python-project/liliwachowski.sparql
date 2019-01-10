@@ -1,7 +1,7 @@
 PREFIX yaco: <https://www.irit.fr/recherches/MELODI/ontologies/cinema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT ?actor ?year
+PREFIX : <https://www.irit.fr/recherches/MELODI/ontologies/cinema-catalog#>
+SELECT ?predicate ?object
 WHERE {
-  ?actor rdf:type yaco:Actor;
-    yaco:birthYear ?year.
+  :LillyWachowski ?predicate ?object.
 }
