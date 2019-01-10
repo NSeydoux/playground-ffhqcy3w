@@ -1,0 +1,6 @@
+@prefix yaco: <https://www.irit.fr/recherches/MELODI/ontologies/cinema#> .
+
+ex:TheMatrix rdf:type yaco:Movie;
+	rdfs:label "The Matrix";
+	yaco:releaseYear "1999"^^xsd:int;
+  yaco:sequel ex:TheMatrixReloaded, ex:TheMatrixRevolutions.
