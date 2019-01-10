@@ -2,6 +2,8 @@ title: An introduction to RDF querying in SPARQL
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+- title: Initial queries
+  statement: markdowns/01_first_queries.md
 projects:
   python:
     root: /python-project
