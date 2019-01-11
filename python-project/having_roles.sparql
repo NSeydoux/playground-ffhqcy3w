@@ -6,4 +6,4 @@ WHERE {
     rdfs:label ?name;
     yaco:playsRole ?role.
 } GROUP BY ?actor
-HAVING COUNT(?role) > 2
+HAVING (COUNT(?role) > 2)

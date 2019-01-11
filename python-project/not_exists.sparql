@@ -5,7 +5,7 @@ PREFIX : <https://www.irit.fr/recherches/MELODI/ontologies/cinema-catalog#>
 SELECT ?movie
 WHERE {
   ?movie rdf:type yaco:Movie.
-  NOT EXISTS{
+  FILTER NOT EXISTS{
     :TomHanks yaco:isFeaturedIn ?movie.
   }
 }

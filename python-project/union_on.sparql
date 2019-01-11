@@ -4,7 +4,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?person
 WHERE {
-  {?person rdf:type yaco:Actor}.
+  {?person rdf:type yaco:Actor.}
   UNION
-  {?person rdf:type yaco:Director}.
+  {?person rdf:type yaco:Director.}
 }

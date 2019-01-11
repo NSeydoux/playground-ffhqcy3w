@@ -1,6 +1,6 @@
 PREFIX yaco: <https://www.irit.fr/recherches/MELODI/ontologies/cinema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT ?name (MIN(?year) as minYear)
+SELECT ?name (MIN(?year) as ?minYear)
 WHERE {
   ?actor rdf:type yaco:Actor;
     rdfs:label ?name;

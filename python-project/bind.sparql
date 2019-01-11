@@ -5,6 +5,6 @@ SELECT ?actor (?curYear-?birthYear AS ?age)
 WHERE {
   ?actor rdf:type yaco:Actor;
     yaco:birthYear ?birthYear.
-  BIND(year() as ?curYear)
+  BIND(year(now()) as ?curYear)
 
 }
