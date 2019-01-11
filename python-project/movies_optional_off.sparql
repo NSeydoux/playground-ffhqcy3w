@@ -5,5 +5,5 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?movie ?year
 WHERE {
   ?movie rdf:type yaco:Movie;
-    yaco:releaseYear ?year
+    yaco:releaseYear ?year.
 }

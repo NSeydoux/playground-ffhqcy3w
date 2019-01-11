@@ -6,6 +6,6 @@ SELECT ?movie ?year
 WHERE {
   ?movie rdf:type yaco:Movie;
     OPTIONAL {
-      yaco:releaseYear ?year
+      ?movie yaco:releaseYear ?year.
     }
 }
