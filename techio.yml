@@ -4,6 +4,20 @@ plan:
   statement: markdowns/welcome.md
 - title: Initial queries
   statement: markdowns/01_first_queries.md
+- title: Filters
+  statement: markdowns/02_filters.md
+- title: Optionality
+  statement: markdowns/03_optionality.md
+- title: Negation
+  statement: markdowns/04_negation.md
+- title: Alternatives
+  statement: markdowns/05_alternatives.md
+- title: Projection
+  statement: markdowns/06_projection.md
+- title: Grouping
+  statement: markdowns/07_grouping_aggregation.md
+- title: Modifiers
+  statement: markdowns/08_modifiers.md
 projects:
   python:
     root: /python-project

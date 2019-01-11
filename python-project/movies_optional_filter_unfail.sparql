@@ -7,6 +7,6 @@ WHERE {
   ?movie rdf:type yaco:Movie.
   OPTIONAL {
     ?movie yaco:releaseYear ?year
-    FILTER(?year = 1997)
+    FILTER(?year != 1997)
   }
 }
