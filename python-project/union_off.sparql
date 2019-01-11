@@ -1,7 +1,9 @@
 PREFIX yaco: <https://www.irit.fr/recherches/MELODI/ontologies/cinema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?movie
+SELECT ?person
 WHERE {
-  ?movie rdf:type yaco:Movie.
+  ?person rdf:type yaco:Actor.
+  ?person rdf:type yaco:Director.
 }

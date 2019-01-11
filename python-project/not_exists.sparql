@@ -1,7 +1,11 @@
 PREFIX yaco: <https://www.irit.fr/recherches/MELODI/ontologies/cinema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <https://www.irit.fr/recherches/MELODI/ontologies/cinema-catalog#>
 
 SELECT ?movie
 WHERE {
   ?movie rdf:type yaco:Movie.
+  NOT EXISTS{
+    :TomHanks yaco:isFeaturedIn ?movie.
+  }
 }

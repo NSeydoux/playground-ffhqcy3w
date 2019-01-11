@@ -1,0 +1,11 @@
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+
+_:a foaf:name "Alice";
+  eg:shoeSize "9.5"^^xsd:float .
+  foaf:mbox  <mailto:alice@work.example> .
+
+_:b foaf:name "Bob"@EN;
+  foaf:name "Robert"@FR;
+  foaf:name "Roberto"@ES;
+  eg:shoeSize "42"^^xsd:integer
+  foaf:mbox "bob@work.example" .

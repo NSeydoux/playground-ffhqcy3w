@@ -1,7 +1,8 @@
 PREFIX yaco: <https://www.irit.fr/recherches/MELODI/ontologies/cinema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-SELECT ?movie
+SELECT ?name
 WHERE {
-  ?movie rdf:type yaco:Movie.
-}
+  ?actor rdf:type yaco:Actor;
+    rdfs:label ?name;
+    yaco:birthYear ?year.
+} ORDER BY DESC(?year)

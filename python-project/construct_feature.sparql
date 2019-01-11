@@ -1,0 +1,11 @@
+PREFIX yaco: <https://www.irit.fr/recherches/MELODI/ontologies/cinema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+CONSTRUCT {
+  ?actor yaco:isFeaturedIn ?movie.
+  ?movie yaco:features ?actor.
+}
+WHERE {
+  ?actor rdf:type yaco:Actor;
+    yaco:playsRole ?role.
+  ?role yaco:rolePartOf ?movie.
+}

@@ -1,0 +1,6 @@
+PREFIX yaco: <https://www.irit.fr/.../ontologies/cinema#>
+PREFIX : <https://www.irit.fr/.../ontologies/cinema-catalog#>
+
+INSERT DATA {
+  :ThePolarExpress yaco:releaseYear 2004.
+}
