@@ -7,7 +7,7 @@ plan:
 - title: Filters
   statement: markdowns/02_filters.md
 - title: Optionality
-  statement: markdowns/03_optionality.md
+  statement: markdowns/03_optionnality.md
 - title: Negation
   statement: markdowns/04_negation.md
 - title: Alternatives
