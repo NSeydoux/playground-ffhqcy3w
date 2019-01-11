@@ -15,7 +15,7 @@ plan:
 - title: Projection
   statement: markdowns/06_projection.md
 - title: Grouping
-  statement: markdowns/07_grouping_aggregation.md
+  statement: markdowns/07_grouping_aggregate.md
 - title: Modifiers
   statement: markdowns/08_modifiers.md
 projects:
