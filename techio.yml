@@ -11,7 +11,7 @@ plan:
 - title: Negation
   statement: markdowns/04_negation.md
 - title: Alternatives
-  statement: markdowns/05_alternatives.md
+  statement: markdowns/05_alternative.md
 - title: Projection
   statement: markdowns/06_projection.md
 - title: Grouping
